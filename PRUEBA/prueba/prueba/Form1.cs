@@ -26,5 +26,11 @@ namespace prueba
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pajina_principal pajina_principal = new pajina_principal();
+            pajina_principal.ShowDialog();
+        }
     }
 }
