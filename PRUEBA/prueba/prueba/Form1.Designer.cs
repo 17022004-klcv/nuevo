@@ -35,7 +35,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Tomato;
-            this.button1.Location = new System.Drawing.Point(390, 459);
+            this.button1.Location = new System.Drawing.Point(389, 466);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(256, 60);

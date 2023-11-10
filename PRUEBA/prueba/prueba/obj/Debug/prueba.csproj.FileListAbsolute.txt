@@ -20,3 +20,4 @@ C:\Users\Carlos_javier\Desktop\Proyecto_Grupal\PRUEBA\prueba\prueba\obj\Debug\pr
 C:\Users\Carlos_javier\Desktop\Proyecto_Grupal\PRUEBA\prueba\prueba\obj\Debug\prueba.exe
 C:\Users\Carlos_javier\Desktop\Proyecto_Grupal\PRUEBA\prueba\prueba\obj\Debug\prueba.pdb
 C:\Users\Carlos_javier\Desktop\Proyecto_Grupal\PRUEBA\prueba\prueba\obj\Debug\prueba.pajina_principal.resources
+C:\Users\Carlos_javier\Desktop\Proyecto_Grupal\PRUEBA\prueba\prueba\obj\Debug\prueba.Opciones_admin.resources
