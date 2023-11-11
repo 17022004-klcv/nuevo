@@ -71,7 +71,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.Aqua;
             this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(201, 289);
+            this.button1.Location = new System.Drawing.Point(182, 285);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(338, 58);
             this.button1.TabIndex = 2;
