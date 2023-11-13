@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace prueba
 {
-    public partial class Nlogin : Form
+    public partial class ingreso_docente : Form
     {
-        public Nlogin()
+        public ingreso_docente()
         {
             InitializeComponent();
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
