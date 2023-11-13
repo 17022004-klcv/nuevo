@@ -66,6 +66,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="registrar_materia_doc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registrar_materia_doc.Designer.cs">
+      <DependentUpon>registrar_materia_doc.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tabla_de_nota.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +103,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="registrar_materia_doc.resx">
+      <DependentUpon>registrar_materia_doc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Tabla_de_nota.resx">
       <DependentUpon>Tabla_de_nota.cs</DependentUpon>
     </EmbeddedResource>
@@ -117,6 +126,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="reg.materia.Designer.docen" />
+    <None Include="reg.materia.docen">
+      <SubType>Form</SubType>
+    </None>
     <None Include="Resources\Captura de pantalla 2023-04-26 155121.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
