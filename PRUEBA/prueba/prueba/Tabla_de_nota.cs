@@ -31,5 +31,23 @@ namespace prueba
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ingreso_docente dc = new ingreso_docente();
+            dc.Show();
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+            ingreso_docente dc = new ingreso_docente();
+            dc.Show();
+        }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+            Opciones_admin admin = new Opciones_admin();
+            admin.Show();
+        }
     }
 }

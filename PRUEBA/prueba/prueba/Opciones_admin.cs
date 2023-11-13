@@ -16,5 +16,17 @@ namespace prueba
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            User_creation creacion = new User_creation();
+            creacion.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Asignación__materia_do asignacion = new Asignación__materia_do();
+            asignacion.Show();
+        }
     }
 }
