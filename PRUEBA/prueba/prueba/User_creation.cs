@@ -16,5 +16,14 @@ namespace prueba
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked)
+            {
+                User_creation User_creation = new User_creation();
+                User_creation.ShowDialog();
+            }
+        }
     }
 }

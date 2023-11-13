@@ -84,6 +84,12 @@
     <Compile Include="registrar_materia_doc.Designer.cs">
       <DependentUpon>registrar_materia_doc.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tabla_ de_ notas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabla_ de_ notas.Designer.cs">
+      <DependentUpon>Tabla_ de_ notas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tabla_de_nota.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +129,9 @@
     </Compile>
     <EmbeddedResource Include="registrar_materia_doc.resx">
       <DependentUpon>registrar_materia_doc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabla_ de_ notas.resx">
+      <DependentUpon>Tabla_ de_ notas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tabla_de_nota.resx">
       <DependentUpon>Tabla_de_nota.cs</DependentUpon>

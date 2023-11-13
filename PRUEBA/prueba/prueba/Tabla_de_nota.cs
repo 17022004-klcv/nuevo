@@ -34,20 +34,38 @@ namespace prueba
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ingreso_docente dc = new ingreso_docente();
-            dc.Show();
+
+            ingreso_docente ingreso_docente = new ingreso_docente();
+            ingreso_docente.ShowDialog();
+
+
+
         }
 
         private void panel4_Paint(object sender, PaintEventArgs e)
         {
-            ingreso_docente dc = new ingreso_docente();
-            dc.Show();
+
         }
 
         private void panel6_Paint(object sender, PaintEventArgs e)
         {
-            Opciones_admin admin = new Opciones_admin();
-            admin.Show();
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+            Opciones_admin Opciones_admin = new Opciones_admin();
+            Opciones_admin.ShowDialog();
+
+
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Tabla__de__notas Tabla__de__notas = new Tabla__de__notas();
+            Tabla__de__notas.ShowDialog();
         }
     }
 }

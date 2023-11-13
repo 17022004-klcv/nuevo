@@ -19,14 +19,15 @@ namespace prueba
 
         private void button1_Click(object sender, EventArgs e)
         {
-            User_creation creacion = new User_creation();
-            creacion.Show();
+
+            User_creation User_creation = new User_creation();
+            User_creation.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Asignación__materia_do asignacion = new Asignación__materia_do();
-            asignacion.Show();
+            Asignación__materia_do Asignación__materia_do = new Asignación__materia_do();
+            Asignación__materia_do.ShowDialog();
         }
     }
 }
