@@ -52,4 +52,4 @@ C:\Users\Carlos_javier\Desktop\parcial 0.3\PRUEBA\prueba\prueba\obj\Debug\prueba
 C:\Users\Carlos_javier\Desktop\parcial 0.3\PRUEBA\prueba\prueba\obj\Debug\prueba.csproj.CoreCompileInputs.cache
 C:\Users\Carlos_javier\Desktop\parcial 0.3\PRUEBA\prueba\prueba\obj\Debug\prueba.exe
 C:\Users\Carlos_javier\Desktop\parcial 0.3\PRUEBA\prueba\prueba\obj\Debug\prueba.pdb
-C:\Users\Carlos_javier\Desktop\parcial 0.3\PRUEBA\prueba\prueba\obj\Debug\prueba.Tabla__de__notas.resources
+C:\Users\Carlos_javier\Desktop\parcial 0.3\PRUEBA\prueba\prueba\obj\Debug\prueba.Tabla_de_notas.resources

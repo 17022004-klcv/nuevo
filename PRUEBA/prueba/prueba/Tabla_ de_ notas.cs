@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace prueba
 {
-    public partial class Tabla__de__notas : Form
+    public partial class Tabla_de_notas : Form
     {
-        public Tabla__de__notas()
+        public Tabla_de_notas()
         {
             InitializeComponent();
         }

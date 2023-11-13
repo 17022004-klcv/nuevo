@@ -64,7 +64,7 @@ namespace prueba
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Tabla__de__notas Tabla__de__notas = new Tabla__de__notas();
+            Tabla_de_notas Tabla__de__notas = new Tabla_de_notas();
             Tabla__de__notas.ShowDialog();
         }
     }
