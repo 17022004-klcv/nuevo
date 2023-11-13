@@ -72,6 +72,12 @@
     <Compile Include="Tabla_de_nota.Designer.cs">
       <DependentUpon>Tabla_de_nota.cs</DependentUpon>
     </Compile>
+    <Compile Include="User_creation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_creation.Designer.cs">
+      <DependentUpon>User_creation.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Asignación _materia_do.resx">
       <DependentUpon>Asignación _materia_do.cs</DependentUpon>
     </EmbeddedResource>
@@ -93,6 +99,9 @@
     </Compile>
     <EmbeddedResource Include="Tabla_de_nota.resx">
       <DependentUpon>Tabla_de_nota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_creation.resx">
+      <DependentUpon>User_creation.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

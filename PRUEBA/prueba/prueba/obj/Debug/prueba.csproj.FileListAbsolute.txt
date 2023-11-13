@@ -21,3 +21,16 @@ C:\Users\Carlos_javier\Desktop\Proyecto_Grupal\PRUEBA\prueba\prueba\obj\Debug\pr
 C:\Users\Carlos_javier\Desktop\Proyecto_Grupal\PRUEBA\prueba\prueba\obj\Debug\prueba.pdb
 C:\Users\Carlos_javier\Desktop\Proyecto_Grupal\PRUEBA\prueba\prueba\obj\Debug\prueba.pajina_principal.resources
 C:\Users\Carlos_javier\Desktop\Proyecto_Grupal\PRUEBA\prueba\prueba\obj\Debug\prueba.Opciones_admin.resources
+C:\Users\MINEDUCYT\OneDrive\Escritorio\Proyectop\PRUEBA\prueba\prueba\bin\Debug\prueba.exe.config
+C:\Users\MINEDUCYT\OneDrive\Escritorio\Proyectop\PRUEBA\prueba\prueba\bin\Debug\prueba.exe
+C:\Users\MINEDUCYT\OneDrive\Escritorio\Proyectop\PRUEBA\prueba\prueba\bin\Debug\prueba.pdb
+C:\Users\MINEDUCYT\OneDrive\Escritorio\Proyectop\PRUEBA\prueba\prueba\obj\Debug\prueba.csproj.AssemblyReference.cache
+C:\Users\MINEDUCYT\OneDrive\Escritorio\Proyectop\PRUEBA\prueba\prueba\obj\Debug\prueba.Asignación__materia_do.resources
+C:\Users\MINEDUCYT\OneDrive\Escritorio\Proyectop\PRUEBA\prueba\prueba\obj\Debug\prueba.Form1.resources
+C:\Users\MINEDUCYT\OneDrive\Escritorio\Proyectop\PRUEBA\prueba\prueba\obj\Debug\prueba.Opciones_admin.resources
+C:\Users\MINEDUCYT\OneDrive\Escritorio\Proyectop\PRUEBA\prueba\prueba\obj\Debug\prueba.Properties.Resources.resources
+C:\Users\MINEDUCYT\OneDrive\Escritorio\Proyectop\PRUEBA\prueba\prueba\obj\Debug\prueba.pajina_principal.resources
+C:\Users\MINEDUCYT\OneDrive\Escritorio\Proyectop\PRUEBA\prueba\prueba\obj\Debug\prueba.csproj.GenerateResource.cache
+C:\Users\MINEDUCYT\OneDrive\Escritorio\Proyectop\PRUEBA\prueba\prueba\obj\Debug\prueba.csproj.CoreCompileInputs.cache
+C:\Users\MINEDUCYT\OneDrive\Escritorio\Proyectop\PRUEBA\prueba\prueba\obj\Debug\prueba.exe
+C:\Users\MINEDUCYT\OneDrive\Escritorio\Proyectop\PRUEBA\prueba\prueba\obj\Debug\prueba.pdb
