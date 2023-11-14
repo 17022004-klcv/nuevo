@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Agregar_alumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agregar_alumno.Designer.cs">
+      <DependentUpon>Agregar_alumno.cs</DependentUpon>
+    </Compile>
     <Compile Include="Asignación _materia_do.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,18 @@
     <Compile Include="registrar_materia_doc.Designer.cs">
       <DependentUpon>registrar_materia_doc.cs</DependentUpon>
     </Compile>
+    <Compile Include="Registro_alumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro_alumno.Designer.cs">
+      <DependentUpon>Registro_alumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Subir_notas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Subir_notas.Designer.cs">
+      <DependentUpon>Subir_notas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tabla_ de_ notas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +120,9 @@
     <Compile Include="User_creation.Designer.cs">
       <DependentUpon>User_creation.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Agregar_alumno.resx">
+      <DependentUpon>Agregar_alumno.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Asignación _materia_do.resx">
       <DependentUpon>Asignación _materia_do.cs</DependentUpon>
     </EmbeddedResource>
@@ -129,6 +150,12 @@
     </Compile>
     <EmbeddedResource Include="registrar_materia_doc.resx">
       <DependentUpon>registrar_materia_doc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro_alumno.resx">
+      <DependentUpon>Registro_alumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subir_notas.resx">
+      <DependentUpon>Subir_notas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tabla_ de_ notas.resx">
       <DependentUpon>Tabla_ de_ notas.cs</DependentUpon>

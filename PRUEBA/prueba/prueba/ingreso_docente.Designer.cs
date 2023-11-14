@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,35 +47,37 @@
             this.panel1.Size = new System.Drawing.Size(686, 373);
             this.panel1.TabIndex = 0;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(154, 21);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(390, 29);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Seleccione la opción que desea realizar";
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(104, 130);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(491, 59);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Registrar Alumnos";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.DarkTurquoise;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(104, 220);
+            this.button2.Location = new System.Drawing.Point(104, 234);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(491, 59);
             this.button2.TabIndex = 2;
             this.button2.Text = "Subir Notas";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(104, 102);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(491, 59);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Registrar Alumnos";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(183, 40);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(329, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Seleccione la opción que desea realizar";
             // 
             // ingreso_docente
             // 
