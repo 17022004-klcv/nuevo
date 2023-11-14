@@ -16,5 +16,17 @@ namespace prueba
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Registro_alumno Registro_alumno = new Registro_alumno();
+            Registro_alumno.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Subir_notas Subir_notas = new Subir_notas();
+            Subir_notas.ShowDialog();
+        }
     }
 }

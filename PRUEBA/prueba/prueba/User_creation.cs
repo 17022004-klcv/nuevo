@@ -21,8 +21,8 @@ namespace prueba
         {
             if (radioButton1.Checked)
             {
-                User_creation User_creation = new User_creation();
-                User_creation.ShowDialog();
+                registrar_materia_doc registrar_materia_doc = new registrar_materia_doc();
+                registrar_materia_doc.ShowDialog();
             }
         }
     }
