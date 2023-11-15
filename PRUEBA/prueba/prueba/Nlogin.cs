@@ -29,23 +29,28 @@ namespace prueba
             usuario = txt_usuario.Text;
             contraseña = txt_contrasena.Text;
 
+            //usuario y contraseña para admin
             if (usuario == "admin" && contraseña == "admin4")
             {
                 Opciones_admin admin = new Opciones_admin();
                 admin.Show();
-            }
-
-            if(usuario == "2023-mj-251" && contraseña == "javier")
+            }else
+            //usuario y contraseña para estudiante
+            if (usuario == "2023-mj-251" && contraseña == "javier")
             {
                 Tabla_de_notas estudiante = new Tabla_de_notas();
                 estudiante.Show();
-            }
-
+            }else
+            //usuario y contraseña para docente
             if (usuario == "2023-cv-251" && contraseña == "karla")
             {
                 ingreso_docente docente = new ingreso_docente();
                 docente.Show();
             }
-    }
+            else
+            {
+                MessageBox.Show("Usuario o contraseña invalidos!");
+            }
+        }
     }
 }
