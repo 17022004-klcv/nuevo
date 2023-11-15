@@ -15,13 +15,23 @@ namespace prueba
         public Nlogin()
         {
             InitializeComponent();
+            bt_ingresar.Enabled  = false;
         }
 
         private void label3_Click(object sender, EventArgs e)
         {
 
         }
+        //Validar campos nulos
+        private void Validar_valores()
+        {
 
+            var nulo = (!string.IsNullOrEmpty(txt_usuario.Text) && !string.IsNullOrEmpty(txt_contrasena.Text));
+
+
+            bt_ingresar.Enabled = nulo;
+        
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             string usuario, contraseña;
@@ -51,6 +61,16 @@ namespace prueba
             {
                 MessageBox.Show("Usuario o contraseña invalidos!");
             }
+        }
+        //validar valor nulo en el usuario
+        private void txt_usuario_TextChanged(object sender, EventArgs e)
+        {
+            Validar_valores();
+        }
+        //validar valor nulo en contraseña
+        private void txt_contrasena_TextChanged(object sender, EventArgs e)
+        {
+            Validar_valores();
         }
     }
 }
