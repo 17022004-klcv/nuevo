@@ -24,8 +24,28 @@ namespace prueba
 
         private void button1_Click(object sender, EventArgs e)
         {
-            pajina_principal tn = new pajina_principal();
-            tn.Show();
-        }
+            string usuario, contraseña;
+
+            usuario = txt_usuario.Text;
+            contraseña = txt_contrasena.Text;
+
+            if (usuario == "admin" && contraseña == "admin4")
+            {
+                Opciones_admin admin = new Opciones_admin();
+                admin.Show();
+            }
+
+            if(usuario == "2023-mj-251" && contraseña == "javier")
+            {
+                Tabla_de_notas estudiante = new Tabla_de_notas();
+                estudiante.Show();
+            }
+
+            if (usuario == "2023-cv-251" && contraseña == "karla")
+            {
+                ingreso_docente docente = new ingreso_docente();
+                docente.Show();
+            }
+    }
     }
 }

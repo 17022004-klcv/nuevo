@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -15,22 +16,37 @@ namespace prueba
         public Form1()
         {
             InitializeComponent();
+            
         }
+        
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        //admin
+        private void btnEmpleado_Click(object sender, EventArgs e)
         {
+            Nlogin loginForm = new Nlogin();
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
+        //boton docente
         private void button1_Click(object sender, EventArgs e)
         {
-            pajina_principal pajina_principal = new pajina_principal();
-            pajina_principal.ShowDialog();
+            Nlogin loginnuevo = new Nlogin();
+            loginnuevo.Show();
+
+        }
+        //boton estudiante
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Nlogin loginnuevo = new Nlogin();
+            loginnuevo.Show();
+
+        }
+        //boton admin
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Nlogin loginnuevo = new Nlogin();
+            loginnuevo.Show();
+
         }
     }
 }

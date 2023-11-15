@@ -108,12 +108,6 @@
     <Compile Include="Tabla_ de_ notas.Designer.cs">
       <DependentUpon>Tabla_ de_ notas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tabla_de_nota.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Tabla_de_nota.Designer.cs">
-      <DependentUpon>Tabla_de_nota.cs</DependentUpon>
-    </Compile>
     <Compile Include="User_creation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -159,9 +153,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Tabla_ de_ notas.resx">
       <DependentUpon>Tabla_ de_ notas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Tabla_de_nota.resx">
-      <DependentUpon>Tabla_de_nota.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User_creation.resx">
       <DependentUpon>User_creation.cs</DependentUpon>

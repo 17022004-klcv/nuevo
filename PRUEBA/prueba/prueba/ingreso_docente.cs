@@ -17,6 +17,10 @@ namespace prueba
             InitializeComponent();
         }
 
+        public ingreso_docente(string bt)
+        {
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             Registro_alumno Registro_alumno = new Registro_alumno();
