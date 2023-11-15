@@ -76,3 +76,4 @@ C:\Users\Karla\OneDrive\Escritorio\nPrueba\PRUEBA\prueba\prueba\obj\Debug\prueba
 C:\Users\Karla\OneDrive\Escritorio\nPrueba\PRUEBA\prueba\prueba\obj\Debug\prueba.csproj.CoreCompileInputs.cache
 C:\Users\Karla\OneDrive\Escritorio\nPrueba\PRUEBA\prueba\prueba\obj\Debug\prueba.exe
 C:\Users\Karla\OneDrive\Escritorio\nPrueba\PRUEBA\prueba\prueba\obj\Debug\prueba.pdb
+C:\Users\Karla\OneDrive\Escritorio\nPrueba\PRUEBA\prueba\prueba\obj\Debug\prueba.olvidar_contra.resources

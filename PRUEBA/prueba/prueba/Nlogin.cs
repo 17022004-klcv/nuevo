@@ -72,5 +72,11 @@ namespace prueba
         {
             Validar_valores();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            olvidar_contra olvido = new olvidar_contra();
+            olvido.Show();
+        }
     }
 }
