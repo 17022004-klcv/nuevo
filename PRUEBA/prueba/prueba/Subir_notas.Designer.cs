@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txt_Nota1 = new System.Windows.Forms.Panel();
+            this.panel = new System.Windows.Forms.Panel();
             this.txt_Parcial = new System.Windows.Forms.TextBox();
             this.txt_Porse4 = new System.Windows.Forms.TextBox();
             this.txt_Porse3 = new System.Windows.Forms.TextBox();
@@ -37,7 +37,7 @@
             this.txt_Nota4 = new System.Windows.Forms.TextBox();
             this.txt_Nota3 = new System.Windows.Forms.TextBox();
             this.txt_Nota2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_Nota1 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -52,40 +52,40 @@
             this.raBut_periodo2 = new System.Windows.Forms.RadioButton();
             this.butt_Calcular = new System.Windows.Forms.Button();
             this.raBut_periodo1 = new System.Windows.Forms.RadioButton();
-            this.txt_Nota1.SuspendLayout();
+            this.panel.SuspendLayout();
             this.SuspendLayout();
             // 
-            // txt_Nota1
+            // panel
             // 
-            this.txt_Nota1.BackColor = System.Drawing.Color.Moccasin;
-            this.txt_Nota1.Controls.Add(this.txt_Parcial);
-            this.txt_Nota1.Controls.Add(this.txt_Porse4);
-            this.txt_Nota1.Controls.Add(this.txt_Porse3);
-            this.txt_Nota1.Controls.Add(this.txt_Porse2);
-            this.txt_Nota1.Controls.Add(this.txt_Porse1);
-            this.txt_Nota1.Controls.Add(this.txt_Nota4);
-            this.txt_Nota1.Controls.Add(this.txt_Nota3);
-            this.txt_Nota1.Controls.Add(this.txt_Nota2);
-            this.txt_Nota1.Controls.Add(this.textBox1);
-            this.txt_Nota1.Controls.Add(this.label9);
-            this.txt_Nota1.Controls.Add(this.label8);
-            this.txt_Nota1.Controls.Add(this.label7);
-            this.txt_Nota1.Controls.Add(this.label6);
-            this.txt_Nota1.Controls.Add(this.label5);
-            this.txt_Nota1.Controls.Add(this.label4);
-            this.txt_Nota1.Controls.Add(this.label3);
-            this.txt_Nota1.Controls.Add(this.label2);
-            this.txt_Nota1.Controls.Add(this.label1);
-            this.txt_Nota1.Controls.Add(this.butt_Ingresar);
-            this.txt_Nota1.Controls.Add(this.raBut_periodo4);
-            this.txt_Nota1.Controls.Add(this.raBut_periodo2);
-            this.txt_Nota1.Controls.Add(this.butt_Calcular);
-            this.txt_Nota1.Controls.Add(this.raBut_periodo1);
-            this.txt_Nota1.Location = new System.Drawing.Point(49, 54);
-            this.txt_Nota1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txt_Nota1.Name = "txt_Nota1";
-            this.txt_Nota1.Size = new System.Drawing.Size(964, 441);
-            this.txt_Nota1.TabIndex = 0;
+            this.panel.BackColor = System.Drawing.Color.Moccasin;
+            this.panel.Controls.Add(this.txt_Parcial);
+            this.panel.Controls.Add(this.txt_Porse4);
+            this.panel.Controls.Add(this.txt_Porse3);
+            this.panel.Controls.Add(this.txt_Porse2);
+            this.panel.Controls.Add(this.txt_Porse1);
+            this.panel.Controls.Add(this.txt_Nota4);
+            this.panel.Controls.Add(this.txt_Nota3);
+            this.panel.Controls.Add(this.txt_Nota2);
+            this.panel.Controls.Add(this.txt_Nota1);
+            this.panel.Controls.Add(this.label9);
+            this.panel.Controls.Add(this.label8);
+            this.panel.Controls.Add(this.label7);
+            this.panel.Controls.Add(this.label6);
+            this.panel.Controls.Add(this.label5);
+            this.panel.Controls.Add(this.label4);
+            this.panel.Controls.Add(this.label3);
+            this.panel.Controls.Add(this.label2);
+            this.panel.Controls.Add(this.label1);
+            this.panel.Controls.Add(this.butt_Ingresar);
+            this.panel.Controls.Add(this.raBut_periodo4);
+            this.panel.Controls.Add(this.raBut_periodo2);
+            this.panel.Controls.Add(this.butt_Calcular);
+            this.panel.Controls.Add(this.raBut_periodo1);
+            this.panel.Location = new System.Drawing.Point(49, 54);
+            this.panel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel.Name = "panel";
+            this.panel.Size = new System.Drawing.Size(964, 441);
+            this.panel.TabIndex = 0;
             // 
             // txt_Parcial
             // 
@@ -151,13 +151,13 @@
             this.txt_Nota2.Size = new System.Drawing.Size(132, 22);
             this.txt_Nota2.TabIndex = 15;
             // 
-            // textBox1
+            // txt_Nota1
             // 
-            this.textBox1.Location = new System.Drawing.Point(209, 129);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(132, 22);
-            this.textBox1.TabIndex = 0;
+            this.txt_Nota1.Location = new System.Drawing.Point(209, 129);
+            this.txt_Nota1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Nota1.Name = "txt_Nota1";
+            this.txt_Nota1.Size = new System.Drawing.Size(132, 22);
+            this.txt_Nota1.TabIndex = 0;
             // 
             // label9
             // 
@@ -269,6 +269,7 @@
             this.butt_Ingresar.TabIndex = 4;
             this.butt_Ingresar.Text = "Ingresar";
             this.butt_Ingresar.UseVisualStyleBackColor = false;
+            this.butt_Ingresar.Click += new System.EventHandler(this.butt_Ingresar_Click);
             // 
             // raBut_periodo4
             // 
@@ -307,6 +308,7 @@
             this.butt_Calcular.TabIndex = 1;
             this.butt_Calcular.Text = "Calcular";
             this.butt_Calcular.UseVisualStyleBackColor = false;
+            this.butt_Calcular.Click += new System.EventHandler(this.butt_Calcular_Click);
             // 
             // raBut_periodo1
             // 
@@ -327,19 +329,19 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Tomato;
             this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.txt_Nota1);
+            this.Controls.Add(this.panel);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Subir_notas";
             this.Text = "Subir_notas";
-            this.txt_Nota1.ResumeLayout(false);
-            this.txt_Nota1.PerformLayout();
+            this.panel.ResumeLayout(false);
+            this.panel.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel txt_Nota1;
+        private System.Windows.Forms.Panel panel;
         private System.Windows.Forms.TextBox txt_Parcial;
         private System.Windows.Forms.TextBox txt_Porse4;
         private System.Windows.Forms.TextBox txt_Porse3;
@@ -348,7 +350,7 @@
         private System.Windows.Forms.TextBox txt_Nota4;
         private System.Windows.Forms.TextBox txt_Nota3;
         private System.Windows.Forms.TextBox txt_Nota2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_Nota1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;

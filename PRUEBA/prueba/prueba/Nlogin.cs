@@ -52,7 +52,7 @@ namespace prueba
                 estudiante.Show();
             }else
             //usuario y contraseña para docente
-            if (usuario == "2023-cv-251" && contraseña == "karla")
+            if (usuario == "3" && contraseña == "4")
             {
                 ingreso_docente docente = new ingreso_docente();
                 docente.Show();
