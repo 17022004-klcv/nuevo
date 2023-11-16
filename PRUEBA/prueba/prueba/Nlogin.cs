@@ -46,7 +46,7 @@ namespace prueba
                 admin.Show();
             }else
             //usuario y contraseña para estudiante
-            if (usuario == "2023-mj-251" && contraseña == "javier")
+            if (usuario == "1" && contraseña == "2")
             {
                 Tabla_de_notas estudiante = new Tabla_de_notas();
                 estudiante.Show();

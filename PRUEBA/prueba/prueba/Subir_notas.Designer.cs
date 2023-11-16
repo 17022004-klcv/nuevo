@@ -28,326 +28,327 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.button1 = new System.Windows.Forms.Button();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.txt_Nota1 = new System.Windows.Forms.Panel();
+            this.txt_Parcial = new System.Windows.Forms.TextBox();
+            this.txt_Porse4 = new System.Windows.Forms.TextBox();
+            this.txt_Porse3 = new System.Windows.Forms.TextBox();
+            this.txt_Porse2 = new System.Windows.Forms.TextBox();
+            this.txt_Porse1 = new System.Windows.Forms.TextBox();
+            this.txt_Nota4 = new System.Windows.Forms.TextBox();
+            this.txt_Nota3 = new System.Windows.Forms.TextBox();
+            this.txt_Nota2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.panel1.SuspendLayout();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.butt_Ingresar = new System.Windows.Forms.Button();
+            this.raBut_periodo4 = new System.Windows.Forms.RadioButton();
+            this.raBut_periodo2 = new System.Windows.Forms.RadioButton();
+            this.butt_Calcular = new System.Windows.Forms.Button();
+            this.raBut_periodo1 = new System.Windows.Forms.RadioButton();
+            this.txt_Nota1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // txt_Nota1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Moccasin;
-            this.panel1.Controls.Add(this.textBox10);
-            this.panel1.Controls.Add(this.textBox9);
-            this.panel1.Controls.Add(this.textBox8);
-            this.panel1.Controls.Add(this.textBox7);
-            this.panel1.Controls.Add(this.textBox6);
-            this.panel1.Controls.Add(this.textBox5);
-            this.panel1.Controls.Add(this.textBox4);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.label10);
-            this.panel1.Controls.Add(this.label9);
-            this.panel1.Controls.Add(this.label8);
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.radioButton3);
-            this.panel1.Controls.Add(this.radioButton2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.radioButton1);
-            this.panel1.Location = new System.Drawing.Point(37, 44);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(723, 358);
-            this.panel1.TabIndex = 0;
+            this.txt_Nota1.BackColor = System.Drawing.Color.Moccasin;
+            this.txt_Nota1.Controls.Add(this.txt_Parcial);
+            this.txt_Nota1.Controls.Add(this.txt_Porse4);
+            this.txt_Nota1.Controls.Add(this.txt_Porse3);
+            this.txt_Nota1.Controls.Add(this.txt_Porse2);
+            this.txt_Nota1.Controls.Add(this.txt_Porse1);
+            this.txt_Nota1.Controls.Add(this.txt_Nota4);
+            this.txt_Nota1.Controls.Add(this.txt_Nota3);
+            this.txt_Nota1.Controls.Add(this.txt_Nota2);
+            this.txt_Nota1.Controls.Add(this.textBox1);
+            this.txt_Nota1.Controls.Add(this.label9);
+            this.txt_Nota1.Controls.Add(this.label8);
+            this.txt_Nota1.Controls.Add(this.label7);
+            this.txt_Nota1.Controls.Add(this.label6);
+            this.txt_Nota1.Controls.Add(this.label5);
+            this.txt_Nota1.Controls.Add(this.label4);
+            this.txt_Nota1.Controls.Add(this.label3);
+            this.txt_Nota1.Controls.Add(this.label2);
+            this.txt_Nota1.Controls.Add(this.label1);
+            this.txt_Nota1.Controls.Add(this.butt_Ingresar);
+            this.txt_Nota1.Controls.Add(this.raBut_periodo4);
+            this.txt_Nota1.Controls.Add(this.raBut_periodo2);
+            this.txt_Nota1.Controls.Add(this.butt_Calcular);
+            this.txt_Nota1.Controls.Add(this.raBut_periodo1);
+            this.txt_Nota1.Location = new System.Drawing.Point(49, 54);
+            this.txt_Nota1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Nota1.Name = "txt_Nota1";
+            this.txt_Nota1.Size = new System.Drawing.Size(964, 441);
+            this.txt_Nota1.TabIndex = 0;
             // 
-            // radioButton1
+            // txt_Parcial
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(55, 51);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(95, 22);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Periodo 1";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.txt_Parcial.Location = new System.Drawing.Point(476, 283);
+            this.txt_Parcial.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Parcial.Name = "txt_Parcial";
+            this.txt_Parcial.Size = new System.Drawing.Size(132, 22);
+            this.txt_Parcial.TabIndex = 23;
             // 
-            // button1
+            // txt_Porse4
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.button1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(169, 288);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(116, 39);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Calcular";
-            this.button1.UseVisualStyleBackColor = false;
+            this.txt_Porse4.Location = new System.Drawing.Point(784, 209);
+            this.txt_Porse4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Porse4.Name = "txt_Porse4";
+            this.txt_Porse4.Size = new System.Drawing.Size(79, 22);
+            this.txt_Porse4.TabIndex = 21;
             // 
-            // radioButton2
+            // txt_Porse3
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(296, 51);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(95, 22);
-            this.radioButton2.TabIndex = 2;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Periodo 2";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.txt_Porse3.Location = new System.Drawing.Point(784, 134);
+            this.txt_Porse3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Porse3.Name = "txt_Porse3";
+            this.txt_Porse3.Size = new System.Drawing.Size(79, 22);
+            this.txt_Porse3.TabIndex = 20;
             // 
-            // radioButton3
+            // txt_Porse2
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(563, 51);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(95, 22);
-            this.radioButton3.TabIndex = 3;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Periodo 3";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.txt_Porse2.Location = new System.Drawing.Point(388, 209);
+            this.txt_Porse2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Porse2.Name = "txt_Porse2";
+            this.txt_Porse2.Size = new System.Drawing.Size(79, 22);
+            this.txt_Porse2.TabIndex = 19;
             // 
-            // button2
+            // txt_Porse1
             // 
-            this.button2.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.button2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(426, 288);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(116, 39);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Ingresar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.txt_Porse1.Location = new System.Drawing.Point(388, 130);
+            this.txt_Porse1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Porse1.Name = "txt_Porse1";
+            this.txt_Porse1.Size = new System.Drawing.Size(79, 22);
+            this.txt_Porse1.TabIndex = 18;
             // 
-            // label1
+            // txt_Nota4
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(92, 108);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 18);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Nota 1:";
+            this.txt_Nota4.Location = new System.Drawing.Point(589, 207);
+            this.txt_Nota4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Nota4.Name = "txt_Nota4";
+            this.txt_Nota4.Size = new System.Drawing.Size(132, 22);
+            this.txt_Nota4.TabIndex = 17;
             // 
-            // label2
+            // txt_Nota3
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(92, 169);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 18);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Nota 2:";
+            this.txt_Nota3.Location = new System.Drawing.Point(589, 130);
+            this.txt_Nota3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Nota3.Name = "txt_Nota3";
+            this.txt_Nota3.Size = new System.Drawing.Size(132, 22);
+            this.txt_Nota3.TabIndex = 16;
             // 
-            // label3
+            // txt_Nota2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(378, 105);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 18);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Nota 3:";
+            this.txt_Nota2.Location = new System.Drawing.Point(211, 208);
+            this.txt_Nota2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Nota2.Name = "txt_Nota2";
+            this.txt_Nota2.Size = new System.Drawing.Size(132, 22);
+            this.txt_Nota2.TabIndex = 15;
             // 
-            // label4
+            // textBox1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(378, 168);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(58, 18);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Nota 4:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(213, 229);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(61, 18);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Parcial:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(263, 108);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(22, 18);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "%";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(263, 169);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(22, 18);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "%";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(560, 108);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(22, 18);
-            this.label8.TabIndex = 12;
-            this.label8.Text = "%";
+            this.textBox1.Location = new System.Drawing.Point(209, 129);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(132, 22);
+            this.textBox1.TabIndex = 0;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(560, 169);
+            this.label9.Location = new System.Drawing.Point(747, 208);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(22, 18);
+            this.label9.Size = new System.Drawing.Size(28, 23);
             this.label9.TabIndex = 13;
             this.label9.Text = "%";
             // 
-            // label10
+            // label8
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(404, 229);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(22, 18);
-            this.label10.TabIndex = 14;
-            this.label10.Text = "%";
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(747, 133);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(28, 23);
+            this.label8.TabIndex = 12;
+            this.label8.Text = "%";
             // 
-            // textBox1
+            // label7
             // 
-            this.textBox1.Location = new System.Drawing.Point(157, 105);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 0;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(351, 208);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(28, 23);
+            this.label7.TabIndex = 11;
+            this.label7.Text = "%";
             // 
-            // textBox2
+            // label6
             // 
-            this.textBox2.Location = new System.Drawing.Point(158, 169);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 15;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(351, 133);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(28, 23);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "%";
             // 
-            // textBox3
+            // label5
             // 
-            this.textBox3.Location = new System.Drawing.Point(442, 106);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 16;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(391, 283);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(76, 23);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Parcial:";
             // 
-            // textBox4
+            // label4
             // 
-            this.textBox4.Location = new System.Drawing.Point(442, 168);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 17;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(504, 207);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(74, 23);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Nota 4:";
             // 
-            // textBox5
+            // label3
             // 
-            this.textBox5.Location = new System.Drawing.Point(291, 106);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(60, 20);
-            this.textBox5.TabIndex = 18;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(504, 129);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(74, 23);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Nota 3:";
             // 
-            // textBox6
+            // label2
             // 
-            this.textBox6.Location = new System.Drawing.Point(291, 170);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(60, 20);
-            this.textBox6.TabIndex = 19;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(123, 208);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(74, 23);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Nota 2:";
             // 
-            // textBox7
+            // label1
             // 
-            this.textBox7.Location = new System.Drawing.Point(588, 109);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(60, 20);
-            this.textBox7.TabIndex = 20;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(123, 133);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(74, 23);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Nota 1:";
             // 
-            // textBox8
+            // butt_Ingresar
             // 
-            this.textBox8.Location = new System.Drawing.Point(588, 170);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(60, 20);
-            this.textBox8.TabIndex = 21;
+            this.butt_Ingresar.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.butt_Ingresar.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.butt_Ingresar.Location = new System.Drawing.Point(568, 354);
+            this.butt_Ingresar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butt_Ingresar.Name = "butt_Ingresar";
+            this.butt_Ingresar.Size = new System.Drawing.Size(155, 48);
+            this.butt_Ingresar.TabIndex = 4;
+            this.butt_Ingresar.Text = "Ingresar";
+            this.butt_Ingresar.UseVisualStyleBackColor = false;
             // 
-            // textBox9
+            // raBut_periodo4
             // 
-            this.textBox9.Location = new System.Drawing.Point(432, 229);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(60, 20);
-            this.textBox9.TabIndex = 22;
-            this.textBox9.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
+            this.raBut_periodo4.AutoSize = true;
+            this.raBut_periodo4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.raBut_periodo4.Location = new System.Drawing.Point(751, 63);
+            this.raBut_periodo4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.raBut_periodo4.Name = "raBut_periodo4";
+            this.raBut_periodo4.Size = new System.Drawing.Size(116, 27);
+            this.raBut_periodo4.TabIndex = 3;
+            this.raBut_periodo4.TabStop = true;
+            this.raBut_periodo4.Text = "Periodo 3";
+            this.raBut_periodo4.UseVisualStyleBackColor = true;
             // 
-            // textBox10
+            // raBut_periodo2
             // 
-            this.textBox10.Location = new System.Drawing.Point(280, 227);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(100, 20);
-            this.textBox10.TabIndex = 23;
+            this.raBut_periodo2.AutoSize = true;
+            this.raBut_periodo2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.raBut_periodo2.Location = new System.Drawing.Point(395, 63);
+            this.raBut_periodo2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.raBut_periodo2.Name = "raBut_periodo2";
+            this.raBut_periodo2.Size = new System.Drawing.Size(116, 27);
+            this.raBut_periodo2.TabIndex = 2;
+            this.raBut_periodo2.TabStop = true;
+            this.raBut_periodo2.Text = "Periodo 2";
+            this.raBut_periodo2.UseVisualStyleBackColor = true;
+            // 
+            // butt_Calcular
+            // 
+            this.butt_Calcular.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.butt_Calcular.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.butt_Calcular.Location = new System.Drawing.Point(225, 354);
+            this.butt_Calcular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butt_Calcular.Name = "butt_Calcular";
+            this.butt_Calcular.Size = new System.Drawing.Size(155, 48);
+            this.butt_Calcular.TabIndex = 1;
+            this.butt_Calcular.Text = "Calcular";
+            this.butt_Calcular.UseVisualStyleBackColor = false;
+            // 
+            // raBut_periodo1
+            // 
+            this.raBut_periodo1.AutoSize = true;
+            this.raBut_periodo1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.raBut_periodo1.Location = new System.Drawing.Point(73, 63);
+            this.raBut_periodo1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.raBut_periodo1.Name = "raBut_periodo1";
+            this.raBut_periodo1.Size = new System.Drawing.Size(116, 27);
+            this.raBut_periodo1.TabIndex = 0;
+            this.raBut_periodo1.TabStop = true;
+            this.raBut_periodo1.Text = "Periodo 1";
+            this.raBut_periodo1.UseVisualStyleBackColor = true;
             // 
             // Subir_notas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Tomato;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.txt_Nota1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Subir_notas";
             this.Text = "Subir_notas";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.txt_Nota1.ResumeLayout(false);
+            this.txt_Nota1.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Panel txt_Nota1;
+        private System.Windows.Forms.TextBox txt_Parcial;
+        private System.Windows.Forms.TextBox txt_Porse4;
+        private System.Windows.Forms.TextBox txt_Porse3;
+        private System.Windows.Forms.TextBox txt_Porse2;
+        private System.Windows.Forms.TextBox txt_Porse1;
+        private System.Windows.Forms.TextBox txt_Nota4;
+        private System.Windows.Forms.TextBox txt_Nota3;
+        private System.Windows.Forms.TextBox txt_Nota2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
@@ -357,10 +358,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Button butt_Ingresar;
+        private System.Windows.Forms.RadioButton raBut_periodo4;
+        private System.Windows.Forms.RadioButton raBut_periodo2;
+        private System.Windows.Forms.Button butt_Calcular;
+        private System.Windows.Forms.RadioButton raBut_periodo1;
     }
 }
