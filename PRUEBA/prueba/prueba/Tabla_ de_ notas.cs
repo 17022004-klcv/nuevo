@@ -15,6 +15,23 @@ namespace prueba
         public Tabla_de_notas()
         {
             InitializeComponent();
+            ConfiguracionDataGrid();
+        }
+
+        private void ConfiguracionDataGrid()
+        {
+            dataGridView1.ReadOnly = true;
+            dataGridView1.AllowUserToAddRows = false;
+            dataGridView1.MultiSelect = false;
+
+
+        }
+
+
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
