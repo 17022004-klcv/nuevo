@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,26 +46,6 @@
             this.panel1.Size = new System.Drawing.Size(699, 374);
             this.panel1.TabIndex = 0;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(118, 53);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(482, 27);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Seleccione materia que impartira el docente";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.BackColor = System.Drawing.Color.Cyan;
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(123, 143);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(477, 33);
-            this.comboBox1.TabIndex = 1;
-            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Cyan;
@@ -76,6 +56,32 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Asignar";
             this.button1.UseVisualStyleBackColor = false;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.BackColor = System.Drawing.Color.Cyan;
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Matematica I",
+            "Tecnicas de redacción",
+            "Ingles",
+            "Programación",
+            "Sistemas operativos"});
+            this.comboBox1.Location = new System.Drawing.Point(123, 143);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(477, 33);
+            this.comboBox1.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(118, 53);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(482, 27);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Seleccione materia que impartira el docente";
             // 
             // registrar_materia_doc
             // 
