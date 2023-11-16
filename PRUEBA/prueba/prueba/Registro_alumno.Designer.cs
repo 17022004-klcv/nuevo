@@ -58,7 +58,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(133, 41);
             this.button1.TabIndex = 4;
-            this.button1.Text = "Ingresar";
+            this.button1.Text = "Registrar";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // textBox1

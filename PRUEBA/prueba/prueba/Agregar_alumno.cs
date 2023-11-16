@@ -21,5 +21,11 @@ namespace prueba
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Subir_notas subir_notas = new Subir_notas();
+            subir_notas.Show();
+        }
     }
 }

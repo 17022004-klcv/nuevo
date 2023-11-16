@@ -29,8 +29,8 @@ namespace prueba
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Subir_notas Subir_notas = new Subir_notas();
-            Subir_notas.ShowDialog();
+            Agregar_alumno buscar_alumno = new Agregar_alumno();
+            buscar_alumno.ShowDialog();
         }
     }
 }
