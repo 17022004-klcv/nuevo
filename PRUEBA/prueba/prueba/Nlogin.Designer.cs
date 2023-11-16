@@ -105,11 +105,13 @@
             // txt_contrasena
             // 
             this.txt_contrasena.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.txt_contrasena.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_contrasena.Location = new System.Drawing.Point(28, 192);
             this.txt_contrasena.Multiline = true;
             this.txt_contrasena.Name = "txt_contrasena";
             this.txt_contrasena.Size = new System.Drawing.Size(387, 51);
             this.txt_contrasena.TabIndex = 2;
+            this.txt_contrasena.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txt_contrasena.TextChanged += new System.EventHandler(this.txt_contrasena_TextChanged);
             // 
             // panel2
@@ -145,11 +147,13 @@
             // txt_usuario
             // 
             this.txt_usuario.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.txt_usuario.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_usuario.Location = new System.Drawing.Point(28, 116);
             this.txt_usuario.Multiline = true;
             this.txt_usuario.Name = "txt_usuario";
             this.txt_usuario.Size = new System.Drawing.Size(387, 51);
             this.txt_usuario.TabIndex = 1;
+            this.txt_usuario.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txt_usuario.TextChanged += new System.EventHandler(this.txt_usuario_TextChanged);
             // 
             // Nlogin
