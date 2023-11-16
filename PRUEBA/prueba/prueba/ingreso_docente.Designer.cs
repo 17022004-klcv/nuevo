@@ -30,17 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ingreso_docente));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.LightSalmon;
+            this.panel1.BackColor = System.Drawing.Color.Silver;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
@@ -52,9 +52,29 @@
             this.panel1.Size = new System.Drawing.Size(686, 373);
             this.panel1.TabIndex = 0;
             // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.DarkGray;
+            this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel3.Location = new System.Drawing.Point(118, 243);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(40, 41);
+            this.panel3.TabIndex = 4;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.DarkGray;
+            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Location = new System.Drawing.Point(118, 120);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(40, 40);
+            this.panel2.TabIndex = 3;
+            // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.button2.BackColor = System.Drawing.Color.DarkGray;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(104, 234);
             this.button2.Name = "button2";
@@ -66,7 +86,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.button1.BackColor = System.Drawing.Color.DarkGray;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(104, 111);
             this.button1.Name = "button1";
@@ -86,31 +106,11 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Seleccione la opción que desea realizar";
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
-            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel2.Location = new System.Drawing.Point(118, 120);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(40, 40);
-            this.panel2.TabIndex = 3;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
-            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel3.Location = new System.Drawing.Point(118, 243);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(40, 41);
-            this.panel3.TabIndex = 4;
-            // 
             // ingreso_docente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Tomato;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel1);
             this.Name = "ingreso_docente";
