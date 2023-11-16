@@ -163,3 +163,25 @@ C:\Users\Carlos_javier\Desktop\proyecto del de finitivo 0.1\PRUEBA\prueba\prueba
 C:\Users\Carlos_javier\Desktop\proyecto del de finitivo 0.1\PRUEBA\prueba\prueba\obj\Debug\prueba.csproj.CoreCompileInputs.cache
 C:\Users\Carlos_javier\Desktop\proyecto del de finitivo 0.1\PRUEBA\prueba\prueba\obj\Debug\prueba.exe
 C:\Users\Carlos_javier\Desktop\proyecto del de finitivo 0.1\PRUEBA\prueba\prueba\obj\Debug\prueba.pdb
+C:\Users\Carlos_javier\Desktop\Proyecto final  0.2\PRUEBA\prueba\prueba\bin\Debug\prueba.exe.config
+C:\Users\Carlos_javier\Desktop\Proyecto final  0.2\PRUEBA\prueba\prueba\bin\Debug\prueba.exe
+C:\Users\Carlos_javier\Desktop\Proyecto final  0.2\PRUEBA\prueba\prueba\bin\Debug\prueba.pdb
+C:\Users\Carlos_javier\Desktop\Proyecto final  0.2\PRUEBA\prueba\prueba\obj\Debug\prueba.csproj.AssemblyReference.cache
+C:\Users\Carlos_javier\Desktop\Proyecto final  0.2\PRUEBA\prueba\prueba\obj\Debug\prueba.csproj.SuggestedBindingRedirects.cache
+C:\Users\Carlos_javier\Desktop\Proyecto final  0.2\PRUEBA\prueba\prueba\obj\Debug\prueba.Agregar_alumno.resources
+C:\Users\Carlos_javier\Desktop\Proyecto final  0.2\PRUEBA\prueba\prueba\obj\Debug\prueba.Asignación__materia_do.resources
+C:\Users\Carlos_javier\Desktop\Proyecto final  0.2\PRUEBA\prueba\prueba\obj\Debug\prueba.Form1.resources
+C:\Users\Carlos_javier\Desktop\Proyecto final  0.2\PRUEBA\prueba\prueba\obj\Debug\prueba.ingreso_docente.resources
+C:\Users\Carlos_javier\Desktop\Proyecto final  0.2\PRUEBA\prueba\prueba\obj\Debug\prueba.Nlogin.resources
+C:\Users\Carlos_javier\Desktop\Proyecto final  0.2\PRUEBA\prueba\prueba\obj\Debug\prueba.olvidar_contra.resources
+C:\Users\Carlos_javier\Desktop\Proyecto final  0.2\PRUEBA\prueba\prueba\obj\Debug\prueba.Opciones_admin.resources
+C:\Users\Carlos_javier\Desktop\Proyecto final  0.2\PRUEBA\prueba\prueba\obj\Debug\prueba.Properties.Resources.resources
+C:\Users\Carlos_javier\Desktop\Proyecto final  0.2\PRUEBA\prueba\prueba\obj\Debug\prueba.registrar_materia_doc.resources
+C:\Users\Carlos_javier\Desktop\Proyecto final  0.2\PRUEBA\prueba\prueba\obj\Debug\prueba.Registro_alumno.resources
+C:\Users\Carlos_javier\Desktop\Proyecto final  0.2\PRUEBA\prueba\prueba\obj\Debug\prueba.Subir_notas.resources
+C:\Users\Carlos_javier\Desktop\Proyecto final  0.2\PRUEBA\prueba\prueba\obj\Debug\prueba.Tabla_de_notas.resources
+C:\Users\Carlos_javier\Desktop\Proyecto final  0.2\PRUEBA\prueba\prueba\obj\Debug\prueba.User_creation.resources
+C:\Users\Carlos_javier\Desktop\Proyecto final  0.2\PRUEBA\prueba\prueba\obj\Debug\prueba.csproj.GenerateResource.cache
+C:\Users\Carlos_javier\Desktop\Proyecto final  0.2\PRUEBA\prueba\prueba\obj\Debug\prueba.csproj.CoreCompileInputs.cache
+C:\Users\Carlos_javier\Desktop\Proyecto final  0.2\PRUEBA\prueba\prueba\obj\Debug\prueba.exe
+C:\Users\Carlos_javier\Desktop\Proyecto final  0.2\PRUEBA\prueba\prueba\obj\Debug\prueba.pdb

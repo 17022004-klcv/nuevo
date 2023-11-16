@@ -43,19 +43,26 @@ namespace prueba
             if (usuario == "admin" && contraseña == "admin4")
             {
                 Opciones_admin admin = new Opciones_admin();
-                admin.Show();
-            }else
+                this.Hide();
+                admin.ShowDialog();
+                this.Close();
+            }
+            else
             //usuario y contraseña para estudiante
             if (usuario == "1" && contraseña == "2")
             {
                 Tabla_de_notas estudiante = new Tabla_de_notas();
-                estudiante.Show();
+                this.Hide();
+                estudiante.ShowDialog();
+                this.Close();
             }else
             //usuario y contraseña para docente
             if (usuario == "3" && contraseña == "4")
             {
                 ingreso_docente docente = new ingreso_docente();
-                docente.Show();
+                this.Hide();
+                docente.ShowDialog();
+                this.Close();
             }
             else
             {
@@ -76,7 +83,9 @@ namespace prueba
         private void button2_Click(object sender, EventArgs e)
         {
             olvidar_contra olvido = new olvidar_contra();
-            olvido.Show();
+            this.Hide();
+            olvido.ShowDialog();
+            this.Close();
         }
     }
 }

@@ -31,22 +31,27 @@ namespace prueba
         private void button1_Click(object sender, EventArgs e)
         {
             Nlogin loginnuevo = new Nlogin();
-            loginnuevo.Show();
-
+            this.Hide();
+            loginnuevo.ShowDialog();
+            this.Close();
         }
         //boton estudiante
         private void button2_Click(object sender, EventArgs e)
         {
             Nlogin loginnuevo = new Nlogin();
-            loginnuevo.Show();
+            this.Hide();
+            loginnuevo.ShowDialog();
+            this.Close();
 
         }
         //boton admin
         private void button3_Click(object sender, EventArgs e)
         {
             Nlogin loginnuevo = new Nlogin();
-            loginnuevo.Show();
-
+            this.Hide();
+            loginnuevo.ShowDialog();
+            this.Close();
         }
+
     }
 }
