@@ -46,30 +46,27 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel1.Location = new System.Drawing.Point(81, 47);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Location = new System.Drawing.Point(61, 38);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(921, 457);
+            this.panel1.Size = new System.Drawing.Size(691, 371);
             this.panel1.TabIndex = 0;
             // 
             // txt_name_Materia
             // 
             this.txt_name_Materia.BackColor = System.Drawing.Color.DarkGray;
             this.txt_name_Materia.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.txt_name_Materia.Location = new System.Drawing.Point(117, 260);
-            this.txt_name_Materia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_name_Materia.Location = new System.Drawing.Point(88, 211);
             this.txt_name_Materia.Multiline = true;
             this.txt_name_Materia.Name = "txt_name_Materia";
-            this.txt_name_Materia.Size = new System.Drawing.Size(695, 50);
+            this.txt_name_Materia.Size = new System.Drawing.Size(522, 41);
             this.txt_name_Materia.TabIndex = 5;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.DarkGray;
-            this.button1.Location = new System.Drawing.Point(377, 369);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(283, 300);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(177, 50);
+            this.button1.Size = new System.Drawing.Size(133, 41);
             this.button1.TabIndex = 4;
             this.button1.Text = "Registrar";
             this.button1.UseVisualStyleBackColor = false;
@@ -79,43 +76,40 @@
             // 
             this.txt_Registrar_usuario.BackColor = System.Drawing.Color.DarkGray;
             this.txt_Registrar_usuario.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.txt_Registrar_usuario.Location = new System.Drawing.Point(117, 98);
-            this.txt_Registrar_usuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Registrar_usuario.Location = new System.Drawing.Point(88, 80);
             this.txt_Registrar_usuario.Multiline = true;
             this.txt_Registrar_usuario.Name = "txt_Registrar_usuario";
-            this.txt_Registrar_usuario.Size = new System.Drawing.Size(695, 50);
+            this.txt_Registrar_usuario.Size = new System.Drawing.Size(522, 41);
             this.txt_Registrar_usuario.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(69, 210);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(52, 171);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(217, 27);
+            this.label2.Size = new System.Drawing.Size(172, 22);
             this.label2.TabIndex = 1;
             this.label2.Text = "Nombre de materia";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(69, 49);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(52, 40);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(309, 27);
+            this.label1.Size = new System.Drawing.Size(243, 22);
             this.label1.TabIndex = 0;
             this.label1.Text = "Usuario que desea registrar";
             // 
             // Registro_alumno
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Registro_alumno";
             this.Text = "Registro_alumno";
+            this.Load += new System.EventHandler(this.Registro_alumno_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

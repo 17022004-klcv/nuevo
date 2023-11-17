@@ -29,5 +29,10 @@ namespace prueba
            
             }
         }
+
+        private void Registro_alumno_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
