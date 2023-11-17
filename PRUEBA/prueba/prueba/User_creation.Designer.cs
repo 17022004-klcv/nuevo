@@ -55,6 +55,7 @@
             this.panel1.Controls.Add(this.txt_Apellidos);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
+            this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(52, 44);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
@@ -117,7 +118,7 @@
             this.txt_Correo.Location = new System.Drawing.Point(252, 292);
             this.txt_Correo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_Correo.Name = "txt_Correo";
-            this.txt_Correo.Size = new System.Drawing.Size(649, 22);
+            this.txt_Correo.Size = new System.Drawing.Size(649, 30);
             this.txt_Correo.TabIndex = 5;
             // 
             // txt_Name
@@ -125,7 +126,7 @@
             this.txt_Name.Location = new System.Drawing.Point(252, 215);
             this.txt_Name.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_Name.Name = "txt_Name";
-            this.txt_Name.Size = new System.Drawing.Size(649, 22);
+            this.txt_Name.Size = new System.Drawing.Size(649, 30);
             this.txt_Name.TabIndex = 4;
             // 
             // label3
@@ -145,7 +146,7 @@
             this.txt_Apellidos.Location = new System.Drawing.Point(252, 139);
             this.txt_Apellidos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_Apellidos.Name = "txt_Apellidos";
-            this.txt_Apellidos.Size = new System.Drawing.Size(649, 22);
+            this.txt_Apellidos.Size = new System.Drawing.Size(649, 30);
             this.txt_Apellidos.TabIndex = 2;
             // 
             // label2
