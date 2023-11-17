@@ -24,8 +24,36 @@ namespace prueba
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Subir_notas subir_notas = new Subir_notas();
-            subir_notas.Show();
+
+            validacion_de_campos();
+
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
+
+        private void validacion_de_campos()
+        {
+           
+
+            if (String.IsNullOrEmpty(txt_name_Estudiante.Text) ||
+               String.IsNullOrEmpty(txt_name_Materia.Text))
+            {
+                MessageBox.Show("Porfavor llene todos los campos");
+            }
+            else
+            {
+
+
+                Subir_notas subir_notas = new Subir_notas();
+                subir_notas.Show();
+
+            }
+        }
+
     }
 }
