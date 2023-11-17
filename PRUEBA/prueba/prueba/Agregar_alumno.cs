@@ -47,11 +47,8 @@ namespace prueba
             }
             else
             {
-
-
                 Subir_notas subir_notas = new Subir_notas();
                 subir_notas.Show();
-
             }
         }
 

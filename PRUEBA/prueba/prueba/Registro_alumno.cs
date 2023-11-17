@@ -16,5 +16,18 @@ namespace prueba
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (String.IsNullOrEmpty(txt_Registrar_usuario.Text) ||
+                  String.IsNullOrEmpty(txt_name_Materia.Text))
+            {
+                MessageBox.Show("Porfavor llene todos los campos");
+            }
+            else
+            {
+           
+            }
+        }
     }
 }
