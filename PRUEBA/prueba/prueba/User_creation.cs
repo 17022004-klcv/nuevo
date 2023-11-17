@@ -19,11 +19,40 @@ namespace prueba
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (radioButton1.Checked)
+            Validacion_de_campos_admin();
+
+            if (raBut_Dosente.Checked)
             {
                 registrar_materia_doc registrar_materia_doc = new registrar_materia_doc();
                 registrar_materia_doc.ShowDialog();
             }
+
+
         }
+
+
+
+
+
+        private void Validacion_de_campos_admin()
+        {
+            if (String.IsNullOrEmpty(txt_Apellidos.Text) ||
+                String.IsNullOrEmpty(txt_Name.Text) ||
+                String.IsNullOrEmpty(txt_Correo.Text) ||
+
+
+                raBut_Dosente.Checked == false &&
+                raBtn_Alumno.Checked == false)
+            {
+                MessageBox.Show("Porfavor llene todos los campos");
+            }
+            else
+            {
+
+            }
+        }
+
+
+
     }
 }
