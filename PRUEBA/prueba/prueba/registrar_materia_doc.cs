@@ -16,5 +16,25 @@ namespace prueba
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedItem != null)
+            {
+                
+                string itemSeleccionado = comboBox1.SelectedItem.ToString();
+                MessageBox.Show("Elemento seleccionado: " + itemSeleccionado);
+            }
+            else
+            {
+                // Mostrar si no se ha seleccionado ningún elemento
+                MessageBox.Show("Por favor, selecciona un elemeto.");
+            }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
