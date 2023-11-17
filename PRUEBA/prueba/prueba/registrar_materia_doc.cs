@@ -23,7 +23,7 @@ namespace prueba
             {
                 
                 string itemSeleccionado = comboBox1.SelectedItem.ToString();
-                MessageBox.Show("Elemento seleccionado: " + itemSeleccionado);
+                MessageBox.Show("Materia: " + itemSeleccionado + " asignada correctamente");
             }
             else
             {

@@ -21,7 +21,9 @@ namespace prueba
         {
 
             User_creation User_creation = new User_creation();
+            this.Hide();
             User_creation.ShowDialog();
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)

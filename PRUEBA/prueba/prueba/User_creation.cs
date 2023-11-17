@@ -24,7 +24,9 @@ namespace prueba
             if (raBut_Dosente.Checked)
             {
                 registrar_materia_doc registrar_materia_doc = new registrar_materia_doc();
+                this.Hide();
                 registrar_materia_doc.ShowDialog();
+                this.Close();
             }
 
 
