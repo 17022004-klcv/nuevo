@@ -27,7 +27,11 @@ namespace prueba
         private void button2_Click(object sender, EventArgs e)
         {
             Asignación__materia_do Asignación__materia_do = new Asignación__materia_do();
+            this.Hide();
             Asignación__materia_do.ShowDialog();
+            this.Close();
+
+            
         }
     }
 }

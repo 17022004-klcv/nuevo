@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace prueba
 {
@@ -15,6 +16,39 @@ namespace prueba
         public Asignación__materia_do()
         {
             InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Usuario_docente_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // Verificar si los campos no estan vacios
+            if (!string.IsNullOrEmpty(Usuario_docente.Text) && comboBox1.SelectedItem != null)
+            {
+                
+                string textoIngresado = Usuario_docente.Text;
+                string itemSeleccionado = comboBox1.SelectedItem.ToString();
+                MessageBox.Show("La materia: " + itemSeleccionado + " ha sido asignada al docente: "+ textoIngresado);
+            }
+            else
+            {
+                // Mostrar si el TextBox está vacío
+                MessageBox.Show("Por favor, llene todos los campos.");
+            }
+
         }
     }
 }
