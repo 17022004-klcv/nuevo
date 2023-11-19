@@ -19,8 +19,22 @@ namespace prueba
 
         private void bt_ingresar_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Querido usuario, dentro de 24 horas se le enviara un enlace a su correo electronico\n\n" +
-                "Seguir los pasos que ahi se le indiquen para poder reestablecer su contraseña");
+           if ( String.IsNullOrEmpty(txt_usuario.Text))
+            {
+                MessageBox.Show("Ingrese su correo electronico");
+            }
+            else 
+            {
+
+                MessageBox.Show("Querido usuario, dentro de 24 horas se le enviara un enlace a su correo electronico\n\n" +
+                    "Seguir los pasos que ahi se le indiquen para poder reestablecer su contraseña");
+            }
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

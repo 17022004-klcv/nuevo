@@ -21,14 +21,6 @@ namespace prueba
         {
             Validacion_de_campos_admin();
 
-            //if (raBut_Dosente.Checked)
-            //{
-            //    registrar_materia_doc registrar_materia_doc = new registrar_materia_doc();
-            //    this.Hide();
-            //    registrar_materia_doc.ShowDialog();
-            //    this.Close();
-            //}
-
 
         }
         private void Validacion_de_campos_admin()
