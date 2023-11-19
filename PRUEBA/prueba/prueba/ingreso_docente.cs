@@ -23,14 +23,23 @@ namespace prueba
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Registro_alumno Registro_alumno = new Registro_alumno();
-            Registro_alumno.ShowDialog();
+            
+            Registro_alumno registro_Alumno = new Registro_alumno();
+            this.Hide();
+            registro_Alumno.ShowDialog();
+            this.Close();
+
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Agregar_alumno buscar_alumno = new Agregar_alumno();
-            buscar_alumno.ShowDialog();
+
+            Subir_notas Subir_notas = new Subir_notas();
+            this.Hide();
+            Subir_notas.ShowDialog();
+            this.Close();
+
         }
     }
 }

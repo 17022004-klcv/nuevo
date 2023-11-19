@@ -57,7 +57,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(52, 44);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(963, 463);
             this.panel1.TabIndex = 0;
@@ -67,7 +67,7 @@
             this.button1.BackColor = System.Drawing.Color.Cyan;
             this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(419, 395);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(151, 49);
             this.button1.TabIndex = 9;
@@ -80,7 +80,7 @@
             this.raBtn_Alumno.AutoSize = true;
             this.raBtn_Alumno.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.raBtn_Alumno.Location = new System.Drawing.Point(567, 346);
-            this.raBtn_Alumno.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.raBtn_Alumno.Margin = new System.Windows.Forms.Padding(4);
             this.raBtn_Alumno.Name = "raBtn_Alumno";
             this.raBtn_Alumno.Size = new System.Drawing.Size(115, 33);
             this.raBtn_Alumno.TabIndex = 8;
@@ -93,13 +93,14 @@
             this.raBut_Dosente.AutoSize = true;
             this.raBut_Dosente.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.raBut_Dosente.Location = new System.Drawing.Point(271, 346);
-            this.raBut_Dosente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.raBut_Dosente.Margin = new System.Windows.Forms.Padding(4);
             this.raBut_Dosente.Name = "raBut_Dosente";
             this.raBut_Dosente.Size = new System.Drawing.Size(124, 33);
             this.raBut_Dosente.TabIndex = 7;
             this.raBut_Dosente.TabStop = true;
             this.raBut_Dosente.Text = "Docente";
             this.raBut_Dosente.UseVisualStyleBackColor = true;
+            this.raBut_Dosente.CheckedChanged += new System.EventHandler(this.raBut_Dosente_CheckedChanged);
             // 
             // label4
             // 
@@ -116,7 +117,7 @@
             // txt_Correo
             // 
             this.txt_Correo.Location = new System.Drawing.Point(252, 292);
-            this.txt_Correo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Correo.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Correo.Name = "txt_Correo";
             this.txt_Correo.Size = new System.Drawing.Size(649, 30);
             this.txt_Correo.TabIndex = 5;
@@ -124,7 +125,7 @@
             // txt_Name
             // 
             this.txt_Name.Location = new System.Drawing.Point(252, 215);
-            this.txt_Name.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Name.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Name.Name = "txt_Name";
             this.txt_Name.Size = new System.Drawing.Size(649, 30);
             this.txt_Name.TabIndex = 4;
@@ -144,7 +145,7 @@
             // txt_Apellidos
             // 
             this.txt_Apellidos.Location = new System.Drawing.Point(252, 139);
-            this.txt_Apellidos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Apellidos.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Apellidos.Name = "txt_Apellidos";
             this.txt_Apellidos.Size = new System.Drawing.Size(649, 30);
             this.txt_Apellidos.TabIndex = 2;
@@ -179,7 +180,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "User_creation";
             this.Text = "User_creation";
             this.panel1.ResumeLayout(false);
