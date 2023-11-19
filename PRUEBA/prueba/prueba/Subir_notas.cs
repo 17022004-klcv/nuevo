@@ -64,7 +64,7 @@ namespace prueba
         private void butt_Calcular_Click(object sender, EventArgs e)
         {
             Validacion_de_campos();
-            Valiar_nota_porse();
+            //Valiar_nota_porse();
         }
 
         private void Valiar_nota_porse()
