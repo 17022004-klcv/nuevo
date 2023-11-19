@@ -82,7 +82,7 @@
             this.panel.Controls.Add(this.butt_Calcular);
             this.panel.Controls.Add(this.raBut_periodo1);
             this.panel.Location = new System.Drawing.Point(49, 54);
-            this.panel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel.Margin = new System.Windows.Forms.Padding(4);
             this.panel.Name = "panel";
             this.panel.Size = new System.Drawing.Size(964, 441);
             this.panel.TabIndex = 0;
@@ -90,7 +90,7 @@
             // txt_Parcial
             // 
             this.txt_Parcial.Location = new System.Drawing.Point(476, 283);
-            this.txt_Parcial.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Parcial.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Parcial.Name = "txt_Parcial";
             this.txt_Parcial.Size = new System.Drawing.Size(132, 22);
             this.txt_Parcial.TabIndex = 23;
@@ -98,7 +98,7 @@
             // txt_Porse4
             // 
             this.txt_Porse4.Location = new System.Drawing.Point(784, 209);
-            this.txt_Porse4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Porse4.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Porse4.Name = "txt_Porse4";
             this.txt_Porse4.Size = new System.Drawing.Size(79, 22);
             this.txt_Porse4.TabIndex = 21;
@@ -106,7 +106,7 @@
             // txt_Porse3
             // 
             this.txt_Porse3.Location = new System.Drawing.Point(784, 134);
-            this.txt_Porse3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Porse3.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Porse3.Name = "txt_Porse3";
             this.txt_Porse3.Size = new System.Drawing.Size(79, 22);
             this.txt_Porse3.TabIndex = 20;
@@ -114,7 +114,7 @@
             // txt_Porse2
             // 
             this.txt_Porse2.Location = new System.Drawing.Point(388, 209);
-            this.txt_Porse2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Porse2.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Porse2.Name = "txt_Porse2";
             this.txt_Porse2.Size = new System.Drawing.Size(79, 22);
             this.txt_Porse2.TabIndex = 19;
@@ -122,7 +122,7 @@
             // txt_Porse1
             // 
             this.txt_Porse1.Location = new System.Drawing.Point(388, 130);
-            this.txt_Porse1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Porse1.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Porse1.Name = "txt_Porse1";
             this.txt_Porse1.Size = new System.Drawing.Size(79, 22);
             this.txt_Porse1.TabIndex = 18;
@@ -130,7 +130,7 @@
             // txt_Nota4
             // 
             this.txt_Nota4.Location = new System.Drawing.Point(589, 207);
-            this.txt_Nota4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Nota4.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Nota4.Name = "txt_Nota4";
             this.txt_Nota4.Size = new System.Drawing.Size(132, 22);
             this.txt_Nota4.TabIndex = 17;
@@ -138,7 +138,7 @@
             // txt_Nota3
             // 
             this.txt_Nota3.Location = new System.Drawing.Point(589, 130);
-            this.txt_Nota3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Nota3.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Nota3.Name = "txt_Nota3";
             this.txt_Nota3.Size = new System.Drawing.Size(132, 22);
             this.txt_Nota3.TabIndex = 16;
@@ -146,7 +146,7 @@
             // txt_Nota2
             // 
             this.txt_Nota2.Location = new System.Drawing.Point(211, 208);
-            this.txt_Nota2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Nota2.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Nota2.Name = "txt_Nota2";
             this.txt_Nota2.Size = new System.Drawing.Size(132, 22);
             this.txt_Nota2.TabIndex = 15;
@@ -154,7 +154,7 @@
             // txt_Nota1
             // 
             this.txt_Nota1.Location = new System.Drawing.Point(209, 129);
-            this.txt_Nota1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Nota1.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Nota1.Name = "txt_Nota1";
             this.txt_Nota1.Size = new System.Drawing.Size(132, 22);
             this.txt_Nota1.TabIndex = 0;
@@ -263,7 +263,7 @@
             this.butt_Ingresar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.butt_Ingresar.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butt_Ingresar.Location = new System.Drawing.Point(568, 354);
-            this.butt_Ingresar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butt_Ingresar.Margin = new System.Windows.Forms.Padding(4);
             this.butt_Ingresar.Name = "butt_Ingresar";
             this.butt_Ingresar.Size = new System.Drawing.Size(155, 48);
             this.butt_Ingresar.TabIndex = 4;
@@ -276,7 +276,7 @@
             this.raBut_periodo3.AutoSize = true;
             this.raBut_periodo3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.raBut_periodo3.Location = new System.Drawing.Point(751, 63);
-            this.raBut_periodo3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.raBut_periodo3.Margin = new System.Windows.Forms.Padding(4);
             this.raBut_periodo3.Name = "raBut_periodo3";
             this.raBut_periodo3.Size = new System.Drawing.Size(116, 27);
             this.raBut_periodo3.TabIndex = 3;
@@ -289,7 +289,7 @@
             this.raBut_periodo2.AutoSize = true;
             this.raBut_periodo2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.raBut_periodo2.Location = new System.Drawing.Point(395, 63);
-            this.raBut_periodo2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.raBut_periodo2.Margin = new System.Windows.Forms.Padding(4);
             this.raBut_periodo2.Name = "raBut_periodo2";
             this.raBut_periodo2.Size = new System.Drawing.Size(116, 27);
             this.raBut_periodo2.TabIndex = 2;
@@ -302,7 +302,7 @@
             this.butt_Calcular.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.butt_Calcular.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butt_Calcular.Location = new System.Drawing.Point(225, 354);
-            this.butt_Calcular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butt_Calcular.Margin = new System.Windows.Forms.Padding(4);
             this.butt_Calcular.Name = "butt_Calcular";
             this.butt_Calcular.Size = new System.Drawing.Size(155, 48);
             this.butt_Calcular.TabIndex = 1;
@@ -315,13 +315,14 @@
             this.raBut_periodo1.AutoSize = true;
             this.raBut_periodo1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.raBut_periodo1.Location = new System.Drawing.Point(73, 63);
-            this.raBut_periodo1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.raBut_periodo1.Margin = new System.Windows.Forms.Padding(4);
             this.raBut_periodo1.Name = "raBut_periodo1";
             this.raBut_periodo1.Size = new System.Drawing.Size(116, 27);
             this.raBut_periodo1.TabIndex = 0;
             this.raBut_periodo1.TabStop = true;
             this.raBut_periodo1.Text = "Periodo 1";
             this.raBut_periodo1.UseVisualStyleBackColor = true;
+            this.raBut_periodo1.CheckedChanged += new System.EventHandler(this.raBut_periodo1_CheckedChanged);
             // 
             // Subir_notas
             // 
@@ -330,7 +331,7 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.panel);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Subir_notas";
             this.Text = "Subir_notas";
             this.panel.ResumeLayout(false);

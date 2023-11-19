@@ -25,12 +25,18 @@ namespace prueba
 
         private void butt_Ingresar_Click(object sender, EventArgs e)
         {
-      
 
             Validacion_de_campos();
-
-
         }
+
+
+
+
+
+
+
+
+
 
         public void Validacion_de_campos()
         {
@@ -56,16 +62,19 @@ namespace prueba
             {
                 Valiar_nota_porse();
 
-
             }
-
         }
+
+
 
         private void butt_Calcular_Click(object sender, EventArgs e)
         {
             Validacion_de_campos();
-            //Valiar_nota_porse();
+            //Valiar_nota_porse
+
         }
+
+
 
         private void Valiar_nota_porse()
         {
@@ -79,8 +88,8 @@ namespace prueba
 
             double porsentaje1 = double.Parse(txt_Porse1.Text);
             double porsentaje2 = double.Parse(txt_Porse2.Text);
-            double porsentaje3 = double.Parse(txt_Porse3.Text); 
-            double porsentaje4 = double.Parse(txt_Porse4.Text); 
+            double porsentaje3 = double.Parse(txt_Porse3.Text);
+            double porsentaje4 = double.Parse(txt_Porse4.Text);
 
             //sesuma los porsentajes para ver el valor que suman 
             double suma_porsentaje = 0;
@@ -95,10 +104,37 @@ namespace prueba
                     nota2 >= 0 && nota2 <= 10 &&
                     nota3 >= 0 && nota3 <= 10 &&
                     nota4 >= 0 && nota4 <= 10 &&
-                    parcial >=0 && parcial <=10)
+                    parcial >= 0 && parcial <= 10)
                 {
 
-                    MessageBox.Show("Los cambios se an enviado correcgta mente");
+
+                    if (raBut_periodo1.Checked == true)
+                    {
+                        Calcular_nota();
+                        MessageBox.Show("Periodo 1");
+                    }
+                    else
+                    {
+                        if (raBut_periodo2.Checked == true)
+                        {
+                            Calcular_nota();
+                            MessageBox.Show("Periodo 2");
+                        }
+                        else
+                        {
+                            if (raBut_periodo3.Checked == true)
+                            {
+                                Calcular_nota();
+                                MessageBox.Show("Periodo 3");
+                            }
+                        }
+                    }
+                   
+
+
+
+
+
                 }
                 else
                 {
@@ -114,6 +150,52 @@ namespace prueba
 
 
 
+        private void Calcular_nota()
+        {
+            double nota_1 = double.Parse(txt_Nota1.Text);
+            double nota_2 = double.Parse(txt_Nota2.Text);
+            double nota_3 = double.Parse(txt_Nota3.Text);
+            double nota_4 = double.Parse(txt_Nota4.Text);
+            double parcial = double.Parse(txt_Parcial.Text);
 
+
+            double porsentaje_1 = double.Parse(txt_Porse1.Text);
+            double porsentaje_2 = double.Parse(txt_Porse2.Text);
+            double porsentaje_3 = double.Parse(txt_Porse3.Text);
+            double porsentaje_4 = double.Parse(txt_Porse4.Text);
+
+
+
+            double NotaCon_porse_1 = (nota_1 * (porsentaje_1 / 100));
+            double NotaCon_porse_2 = (nota_2 * (porsentaje_2 / 100));
+            double NotaCon_porse_3 = (nota_3 * (porsentaje_3 / 100));
+            double NotaCon_porse_4 = (nota_4 * (porsentaje_4 / 100));
+
+            double Nota_parcial = parcial * 0.5;
+
+
+
+            double Nota_final = 0;
+            Nota_final = (NotaCon_porse_1 + NotaCon_porse_2 + NotaCon_porse_3 + NotaCon_porse_4 + Nota_parcial);
+
+
+
+            if (Nota_final > 7)
+            {
+                MessageBox.Show("su nota es " + Nota_final);
+            }
+            else
+            {
+                MessageBox.Show("su nota es mala " + Nota_final);
+            }
+
+
+
+        }
+
+        private void raBut_periodo1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
