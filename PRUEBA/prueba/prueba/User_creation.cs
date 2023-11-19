@@ -12,9 +12,12 @@ namespace prueba
 {
     public partial class User_creation : Form
     {
+        private Conexion nConexion;
         public User_creation()
         {
             InitializeComponent();
+            nConexion = new Conexion();
+
         }
 
         private void button1_Click(object sender, EventArgs e)
