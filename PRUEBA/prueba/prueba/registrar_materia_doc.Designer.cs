@@ -32,6 +32,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,9 +42,9 @@
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(51, 36);
+            this.panel1.Location = new System.Drawing.Point(55, 46);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(699, 374);
+            this.panel1.Size = new System.Drawing.Size(695, 364);
             this.panel1.TabIndex = 0;
             // 
             // button1
@@ -85,12 +86,25 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Seleccione materia que impartira el docente";
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.DarkGray;
+            this.button2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(12, 12);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(37, 39);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "<";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // registrar_materia_doc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.panel1);
             this.Name = "registrar_materia_doc";
             this.Text = "registrar_materia_doc";
@@ -106,5 +120,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button2;
     }
 }

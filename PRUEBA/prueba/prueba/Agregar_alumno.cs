@@ -48,5 +48,12 @@ namespace prueba
             return !string.IsNullOrEmpty(txt_name_Estudiante.Text) && !string.IsNullOrEmpty(txt_name_Estudiante.Text);
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Subir_notas Subir_notas = new Subir_notas();
+            this.Hide();
+            Subir_notas.ShowDialog();
+            this.Close();
+        }
     }
 }

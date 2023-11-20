@@ -56,5 +56,13 @@ namespace prueba
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Opciones_admin admin = new Opciones_admin();
+            this.Hide();
+            admin.ShowDialog();
+            this.Close();
+        }
     }
 }
