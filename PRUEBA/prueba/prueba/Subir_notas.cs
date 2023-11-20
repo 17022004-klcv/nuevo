@@ -25,7 +25,10 @@ namespace prueba
 
         private void butt_Ingresar_Click(object sender, EventArgs e)
         {
-
+            Agregar_alumno Agregar_alumno = new Agregar_alumno();
+            this.Hide();
+            Agregar_alumno.ShowDialog();
+            this.Close();
             Validacion_de_campos();
         }
 
@@ -196,6 +199,14 @@ namespace prueba
         private void raBut_periodo1_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ingreso_docente ingreso_docente = new ingreso_docente();
+            this.Hide();
+            ingreso_docente.ShowDialog();
+            this.Close();
         }
     }
 }

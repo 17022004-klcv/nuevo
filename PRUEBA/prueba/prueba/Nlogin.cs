@@ -87,5 +87,13 @@ namespace prueba
             olvido.ShowDialog();
             this.Close();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form1 Form1 = new Form1();
+            this.Hide();
+            Form1.ShowDialog();
+            this.Close();
+        }
     }
 }
