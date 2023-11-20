@@ -36,5 +36,13 @@ namespace prueba
         {
             Application.Exit();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Nlogin Nlogin = new Nlogin();
+            this.Hide();
+            Nlogin.ShowDialog();
+            this.Close();
+        }
     }
 }

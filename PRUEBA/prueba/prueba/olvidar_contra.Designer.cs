@@ -37,7 +37,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txt_usuario = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -50,20 +49,18 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.txt_usuario);
-            this.panel1.Location = new System.Drawing.Point(204, 82);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Location = new System.Drawing.Point(153, 67);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(624, 332);
+            this.panel1.Size = new System.Drawing.Size(468, 270);
             this.panel1.TabIndex = 1;
             // 
             // bt_ingresar
             // 
             this.bt_ingresar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bt_ingresar.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_ingresar.Location = new System.Drawing.Point(179, 235);
-            this.bt_ingresar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bt_ingresar.Location = new System.Drawing.Point(134, 191);
             this.bt_ingresar.Name = "bt_ingresar";
-            this.bt_ingresar.Size = new System.Drawing.Size(253, 49);
+            this.bt_ingresar.Size = new System.Drawing.Size(190, 40);
             this.bt_ingresar.TabIndex = 4;
             this.bt_ingresar.Text = "Enviar";
             this.bt_ingresar.UseVisualStyleBackColor = true;
@@ -73,10 +70,9 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(33, 117);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(25, 95);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 24);
+            this.label3.Size = new System.Drawing.Size(55, 18);
             this.label3.TabIndex = 0;
             this.label3.Text = "Usuario";
             // 
@@ -85,20 +81,18 @@
             this.panel2.BackColor = System.Drawing.Color.Gainsboro;
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(24, 21);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Location = new System.Drawing.Point(18, 17);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(517, 91);
+            this.panel2.Size = new System.Drawing.Size(388, 74);
             this.panel2.TabIndex = 0;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(341, 64);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(256, 52);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(167, 27);
+            this.label2.Size = new System.Drawing.Size(129, 22);
             this.label2.TabIndex = 1;
             this.label2.Text = "SEDE EN TOKIO";
             // 
@@ -106,60 +100,43 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe Print", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(135, 20);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(101, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(268, 47);
+            this.label1.Size = new System.Drawing.Size(205, 36);
             this.label1.TabIndex = 0;
             this.label1.Text = "SHIRATORIZAWA";
             // 
             // txt_usuario
             // 
             this.txt_usuario.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.txt_usuario.Location = new System.Drawing.Point(37, 143);
-            this.txt_usuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_usuario.Location = new System.Drawing.Point(28, 116);
             this.txt_usuario.Multiline = true;
             this.txt_usuario.Name = "txt_usuario";
-            this.txt_usuario.Size = new System.Drawing.Size(515, 62);
+            this.txt_usuario.Size = new System.Drawing.Size(387, 51);
             this.txt_usuario.TabIndex = 1;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.DarkGray;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(16, 15);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(12, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(45, 36);
+            this.button1.Size = new System.Drawing.Size(34, 29);
             this.button1.TabIndex = 2;
             this.button1.Text = "<";
             this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.DarkGray;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(1005, 15);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(45, 36);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "X";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // olvidar_contra
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.button2);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "olvidar_contra";
             this.Text = "olvidar_contra";
             this.panel1.ResumeLayout(false);
@@ -180,6 +157,5 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txt_usuario;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
     }
 }
