@@ -25,14 +25,99 @@ namespace prueba
 
         private void butt_Ingresar_Click(object sender, EventArgs e)
         {
-            Agregar_alumno Agregar_alumno = new Agregar_alumno();
-            this.Hide();
-            Agregar_alumno.ShowDialog();
-            this.Close();
-            Validacion_de_campos();
+            validar_campo_ingrsar();
+
+  
         }
 
+        private void validar_campo_ingrsar()
+        {
 
+            if (!double.TryParse(txt_Nota1.Text, out double nota01) ||
+    !double.TryParse(txt_Nota2.Text, out double nota02) ||
+    !double.TryParse(txt_Nota3.Text, out double nota03) ||
+    !double.TryParse(txt_Nota4.Text, out double nota04) ||
+
+    !double.TryParse(txt_Porse1.Text, out double porse1) ||
+    !double.TryParse(txt_Porse2.Text, out double porse2) ||
+    !double.TryParse(txt_Porse3.Text, out double porse3) ||
+    !double.TryParse(txt_Porse4.Text, out double porse4) ||
+    !double.TryParse(txt_Parcial.Text, out double Parcial) ||
+
+    raBut_periodo1.Checked == false &&
+    raBut_periodo2.Checked == false &&
+    raBut_periodo3.Checked == false)
+            {
+                MessageBox.Show("Llene los campos correspondientes o\nAsegurese que no vaya un dato de topo caracter");
+            }
+            else
+            {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                //declaracion de variables de las notas
+                double nota1 = double.Parse(txt_Nota1.Text);
+                double nota2 = double.Parse(txt_Nota2.Text);
+                double nota3 = double.Parse(txt_Nota3.Text);
+                double nota4 = double.Parse(txt_Nota4.Text);
+                double parcial = double.Parse(txt_Parcial.Text);
+                //declaracion de varibles para los porsentajes
+
+                double porsentaje1 = double.Parse(txt_Porse1.Text);
+                double porsentaje2 = double.Parse(txt_Porse2.Text);
+                double porsentaje3 = double.Parse(txt_Porse3.Text);
+                double porsentaje4 = double.Parse(txt_Porse4.Text);
+
+                //sesuma los porsentajes para ver el valor que suman 
+                double suma_porsentaje = 0;
+                suma_porsentaje = (porsentaje1 + porsentaje2 + porsentaje3 + porsentaje4);
+
+                //validacion del posentaje 
+                if (suma_porsentaje == 50)
+                {
+
+                    //validacion de notas 
+                    if (nota1 >= 0 && nota1 <= 10 &&
+                        nota2 >= 0 && nota2 <= 10 &&
+                        nota3 >= 0 && nota3 <= 10 &&
+                        nota4 >= 0 && nota4 <= 10 &&
+                        parcial >= 0 && parcial <= 10)
+                    {
+                        Agregar_alumno Agregar_alumno = new Agregar_alumno();
+                        this.Hide();
+                        Agregar_alumno.ShowDialog();
+                        this.Close();
+                    }
+                    else
+                    {
+                        MessageBox.Show("La nota esta fuera de ragango");
+                    }
+
+
+                
+
+                }
+
+            }
+
+
+
+
+        }
 
 
 
