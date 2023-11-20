@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace prueba
 {
@@ -25,7 +26,15 @@ namespace prueba
         private void button1_Click(object sender, EventArgs e)
         {
 
-            validacion_de_campos();
+            if (Validaciondebotones1())
+            {
+                MessageBox.Show("Las notas fueron asignadas correctamente al estudiante: " + txt_name_Estudiante.Text);
+            }
+            else
+            {
+                
+                MessageBox.Show("Todos los campos deben estar llenos", "Campo Vacío", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
 
         }
 
@@ -34,23 +43,9 @@ namespace prueba
 
         }
 
-
-
-        private void validacion_de_campos()
+        private bool Validaciondebotones1()
         {
-           
-
-            if (String.IsNullOrEmpty(txt_name_Estudiante.Text) ||
-               String.IsNullOrEmpty(txt_name_Materia.Text))
-            {
-                MessageBox.Show("Porfavor llene todos los campos");
-            }
-            else
-            {
-                Subir_notas subir_notas = new Subir_notas();
-                this.Hide();
-                subir_notas.Show();
-            }
+            return !string.IsNullOrEmpty(txt_name_Estudiante.Text) && !string.IsNullOrEmpty(txt_name_Estudiante.Text);
         }
 
     }
