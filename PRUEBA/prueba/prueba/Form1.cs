@@ -38,7 +38,7 @@ namespace prueba
         //boton estudiante
         private void button2_Click(object sender, EventArgs e)
         {
-            Nlogin loginnuevo = new Nlogin();
+            loginStudent loginnuevo = new loginStudent();
             this.Hide();
             loginnuevo.ShowDialog();
             this.Close();

@@ -123,6 +123,12 @@
     <Compile Include="ingreso_docente.Designer.cs">
       <DependentUpon>ingreso_docente.cs</DependentUpon>
     </Compile>
+    <Compile Include="loginStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginStudent.Designer.cs">
+      <DependentUpon>loginStudent.cs</DependentUpon>
+    </Compile>
     <Compile Include="Nlogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -184,6 +190,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ingreso_docente.resx">
       <DependentUpon>ingreso_docente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginStudent.resx">
+      <DependentUpon>loginStudent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nlogin.resx">
       <DependentUpon>Nlogin.cs</DependentUpon>

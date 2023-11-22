@@ -536,3 +536,4 @@ C:\Users\Karla\OneDrive\Escritorio\karlap\PRUEBA\prueba\prueba\bin\Debug\System.
 C:\Users\Karla\OneDrive\Escritorio\karlap\PRUEBA\prueba\prueba\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Karla\OneDrive\Escritorio\karlap\PRUEBA\prueba\prueba\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Karla\OneDrive\Escritorio\karlap\PRUEBA\prueba\prueba\obj\Debug\prueba.csproj.CopyComplete
+C:\Users\Karla\OneDrive\Escritorio\karlap\PRUEBA\prueba\prueba\obj\Debug\prueba.loginStudent.resources
