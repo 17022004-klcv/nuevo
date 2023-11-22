@@ -98,7 +98,7 @@
             this.raBut_Dosente.TabStop = true;
             this.raBut_Dosente.Text = "Docente";
             this.raBut_Dosente.UseVisualStyleBackColor = true;
-            this.raBut_Dosente.CheckedChanged += new System.EventHandler(this.raBut_Dosente_CheckedChanged);
+//            this.raBut_Dosente.CheckedChanged += new System.EventHandler(this.raBut_Dosente_CheckedChanged);
             // 
             // label4
             // 
@@ -174,7 +174,7 @@
             this.button2.TabIndex = 10;
             this.button2.Text = "<";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+//              this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // User_creation
             // 
