@@ -53,6 +53,8 @@ namespace prueba
 
         }
 
+
+        //esta parte del codigo hacer retoceder al antiguo formulario 
         private void button2_Click(object sender, EventArgs e)
         {
             Opciones_admin admin = new Opciones_admin();

@@ -36,12 +36,19 @@ namespace prueba
             
         }
 
+
+        //esta parte del codigo hacer retoceder al antiguo formulario 
         private void button2_Click_1(object sender, EventArgs e)
         {
             Nlogin Nlogin = new Nlogin();
             this.Hide();
             Nlogin.ShowDialog();
             this.Close();
+        }
+
+        private void Opciones_admin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

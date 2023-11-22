@@ -100,6 +100,8 @@ namespace prueba
             this.Close();
         }
 
+
+        //esta parte del codigo hacer retoceder al antiguo formulario 
         private void button1_Click_1(object sender, EventArgs e)
         {
             Form1 Form1 = new Form1();

@@ -20,14 +20,13 @@ namespace prueba
 
         private void textBox9_TextChanged(object sender, EventArgs e)
         {
-
+ 
+ 
         }
 
         private void butt_Ingresar_Click(object sender, EventArgs e)
         {
             validar_campo_ingrsar();
-
-  
         }
 
         private void validar_campo_ingrsar()
@@ -52,22 +51,6 @@ namespace prueba
             }
             else
             {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                 //declaracion de variables de las notas
                 double nota1 = double.Parse(txt_Nota1.Text);
@@ -107,23 +90,11 @@ namespace prueba
                         MessageBox.Show("La nota esta fuera de ragango");
                     }
 
-
-                
-
                 }
 
             }
 
-
-
-
         }
-
-
-
-
-
-
 
 
         public void Validacion_de_campos()
@@ -157,12 +128,13 @@ namespace prueba
 
         private void butt_Calcular_Click(object sender, EventArgs e)
         {
+            //se llama el metodo, este metodo lo que hoce es que valida los campos 
             Validacion_de_campos();
-            //Valiar_nota_porse
 
         }
 
 
+        //en este metodo se valida la notas y los porsentajes 
 
         private void Valiar_nota_porse()
         {
@@ -195,9 +167,11 @@ namespace prueba
                     parcial >= 0 && parcial <= 10)
                 {
 
-
+                    // aca se balida que siclo a elejudo el usuario  y 
+                    //se llama el metodo que calcula la nota del estudiante y muestra que periodo es
                     if (raBut_periodo1.Checked == true)
                     {
+
                         Calcular_nota();
                         MessageBox.Show("Periodo 1");
                     }
@@ -217,11 +191,6 @@ namespace prueba
                             }
                         }
                     }
-                   
-
-
-
-
 
                 }
                 else
@@ -237,9 +206,10 @@ namespace prueba
         }
 
 
-
+        // aqui se calcula la nota del estudiante 
         private void Calcular_nota()
         {
+            //se grean las variabes y se les de el valor de los textBox tamto para las notas como para los poesentajes 
             double nota_1 = double.Parse(txt_Nota1.Text);
             double nota_2 = double.Parse(txt_Nota2.Text);
             double nota_3 = double.Parse(txt_Nota3.Text);
@@ -253,7 +223,7 @@ namespace prueba
             double porsentaje_4 = double.Parse(txt_Porse4.Text);
 
 
-
+            //se calcula la nota con el porsentaje 
             double NotaCon_porse_1 = (nota_1 * (porsentaje_1 / 100));
             double NotaCon_porse_2 = (nota_2 * (porsentaje_2 / 100));
             double NotaCon_porse_3 = (nota_3 * (porsentaje_3 / 100));
@@ -262,10 +232,9 @@ namespace prueba
             double Nota_parcial = parcial * 0.5;
 
 
-
+            // Aqui se daca el promedio final 
             double Nota_final = 0;
             Nota_final = (NotaCon_porse_1 + NotaCon_porse_2 + NotaCon_porse_3 + NotaCon_porse_4 + Nota_parcial);
-
 
 
             if (Nota_final > 7)
@@ -277,8 +246,6 @@ namespace prueba
                 MessageBox.Show("su nota es mala " + Nota_final);
             }
 
-
-
         }
 
         private void raBut_periodo1_CheckedChanged(object sender, EventArgs e)
@@ -286,6 +253,8 @@ namespace prueba
 
         }
 
+
+        //esta parte del codigo hacer retoceder al antiguo formulario 
         private void button1_Click(object sender, EventArgs e)
         {
             ingreso_docente ingreso_docente = new ingreso_docente();

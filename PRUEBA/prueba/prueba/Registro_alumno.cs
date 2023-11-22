@@ -115,5 +115,15 @@ namespace prueba
         {
 
         }
+
+
+        //esta parte del codigo hacer retoceder al antiguo formulario 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ingreso_docente ingreso = new ingreso_docente();
+            this.Hide();
+            ingreso.ShowDialog();
+            this.Show();
+        }
     }
 }
