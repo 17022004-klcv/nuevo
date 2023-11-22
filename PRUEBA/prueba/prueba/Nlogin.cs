@@ -49,7 +49,7 @@ namespace prueba
             }
             else
             //usuario y contraseña para estudiante
-            if (usuario == "1" && contraseña == "2")
+            if (usuario == "2" && contraseña == "2")
             {
                 Tabla_de_notas estudiante = new Tabla_de_notas();
                 this.Hide();
