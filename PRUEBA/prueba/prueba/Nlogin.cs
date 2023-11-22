@@ -48,23 +48,6 @@ namespace prueba
                 this.Close();
             }
             else
-            //usuario y contraseña para estudiante
-            if (usuario == "2" && contraseña == "2")
-            {
-                Tabla_de_notas estudiante = new Tabla_de_notas();
-                this.Hide();
-                estudiante.ShowDialog();
-                this.Close();
-            }else
-            //usuario y contraseña para docente
-            if (usuario == "3" && contraseña == "4")
-            {
-                ingreso_docente docente = new ingreso_docente();
-                this.Hide();
-                docente.ShowDialog();
-                this.Close();
-            }
-            else
             {
                 MessageBox.Show("Usuario o contraseña invalidos!");
             }

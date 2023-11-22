@@ -13,9 +13,11 @@ namespace prueba
 {
     public partial class Asignación__materia_do : Form
     {
+        private Conexion nConexion;
         public Asignación__materia_do()
         {
             InitializeComponent();
+            nConexion = new Conexion();
         }
 
         private void label2_Click(object sender, EventArgs e)
