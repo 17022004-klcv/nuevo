@@ -110,7 +110,7 @@ namespace prueba
         //boton - olvido contraseña
         private void button2_Click_1(object sender, EventArgs e)
         {
-            olvidar_contra olvido = new olvidar_contra();q
+            olvidar_contra olvido = new olvidar_contra();
             this.Hide();
             olvido.ShowDialog();
             this.Close();
